@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* ...................................................................................................
+ * Tag styles
+ * ...................................................................................................*/
+
+body 
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #F2F2F2;
+	margin: 0;
+	padding: 0;
+}
+
+nav
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul
+{
+	text-align: center;
+}
+
+nav a
+{
+	text-decoration: none;
+}
+
+
+li
+{
+	display: inline;
+	padding: 0 10px;
+	/*background-color: #068FD3;*/
+	text-align: center;
+}
+a
+{
+	color: #068FD3;
+	text-align: center;
+	font-size: .8em;
+	font-variant: small-caps;
+	padding: 0 5px;
+}
+
+a:hover
+{
+	/*background-color: #068FD3;*/
+	border-top: 5px solid #068FD3;
+}
+
+
+footer
+{
+	height: 40px;
+	border-top: 5px solid black;
+	clear: both;
+}
+
+
+/* ...................................................................................................
+ * Image styles
+ * ...................................................................................................*/
+
+
+/* ...................................................................................................
+ * Div styles
+ * ...................................................................................................*/
+
+#wrapper
+{
+	width: 960px;
+	margin: 0 auto;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+#wrapper > a
+{
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 239px;
+	line-height: 501px;
+}
+
+#wrapper > a:hover
+{
+	border: none;
+}
+
+#banner
+{
+	height: 140px;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+	margin-top: 20px;
+}
+
+#div_centre
+{
+	width: 960px;
+	/*height: 1000px;*/
+	margin: 0 auto;
+	background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+/* ...................................................................................................
+ * Class styles
+ * ...................................................................................................*/
